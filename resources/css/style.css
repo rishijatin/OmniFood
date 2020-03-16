@@ -219,10 +219,11 @@ input[type=submit]:active
 header
 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    height: 100vh;
+    height: 70vh; 
     background-size: cover;
-    background-position: center;
+    background-position:center;
     background-attachment: fixed;
+    position: relative;
 }
 
 .hero-text-box
@@ -468,8 +469,25 @@ cite img
     width: 90%;
     margin-left: 5%;
     transition: box-shadow 0.2s , transform, 0.2s;
-    
-    
+    position: relative;
+}
+.plan-box h3
+{
+    /* float: left; */
+}
+.plan-box img
+{
+    height: 107px;
+    width: auto;
+    position: absolute;
+    left:70%;
+    top: 3%;
+    transform: rotate(-18deg);
+}
+
+.row .col:first-of-type .plan-box
+{
+    border: 2px solid #e67e22;
 }
 .plan-box:hover
 {
