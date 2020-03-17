@@ -1,0 +1,42 @@
+
+/* For widths between 768px to 1200pc( as width of our row is 1140px) */
+@media  only screen and (max-width :1200px)
+{
+    .hero-text-box
+    {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+
+}
+
+
+/* For widths between 768px to 1023px */
+@media  only screen and (max-width :1023px)
+{
+        body{font-size: 18px;}
+
+        section{padding: 60px 0;}
+
+        .long-copy
+        {
+            width: 80%;
+            margin-left: 10%;
+        }
+}
+
+
+
+/* For widths between 480px to 767px */
+@media  only screen and (max-width :767px)
+{
+
+}
+
+
+/* For widths between 0px to 480px */
+@media  only screen and (max-width :480px)
+{
+
+}
